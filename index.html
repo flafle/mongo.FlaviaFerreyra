@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./assets/sprites/play.png">
+    <!--Boots-->
+    <link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">
+    <!--script-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--Styles-->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>MonGo</title>
+</head>
+
+<body class="col-md-12 ">
+    <header>
+    <!--NavBar-->
+    <nav class="navbar bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">  </a>
+          <img src="./assets/m33.png" width=30 heigth="30" alt="MOngo">
+        </div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./pages/juego.html"> 🐸 </a>
+          </div>
+      </nav>
+   
+    </header>
+
+<main>
+         <h3 class="text-center"> Bienvenid@s a Mongo!</h3>
+    
+          <div class=" text-center">
+            <p > ← Jugar/Instrucciones → :</p>
+              <a href="./pages/juego.html" class="btn btn-warning" name= "botonMonkey" class="botonMonkey"> JugarMonGo 🐵</button></a>  
+             <a href="./pages/instrucciones.html"  class="btn btn-success" name="botonFrog" class="botonFrog"> Instrucciones 🐸</button></a>  
+           </div>
+           
+   
+ <div class="row mt-5 ">
+   <h3 class="text-center mt-5 mb-5 font-weight-light"> Luego de jugar: ¡Registrá tu score! </h3>
+    </div>
+
+   <!--FORMULARIO-->
+   <div class="contenedora ">
+      <div class="row  d-flex justify-content-center align-items-center">
+      
+ <form id="formPlayers">
+        <div class="col-3">
+          <label for="nombrePlayer" class="form-label" >Nombre</label>
+          <input type="text" class="form-control" id="nombrePlayer" name="namePlayer">
+        
+      </div>
+    </div>
+    <div class="row  d-flex justify-content-center align-items-center">
+      <div class="col-3">
+        
+          <label for="scorePlayer" class="form-label" id="scorePlayer">Score</label>
+          <input type="number" class="form-control" id="scorePlayer" name="puntosPlayer">
+        
+      </div>
+    </div>
+    
+    <div class="row  d-flex justify-content-center align-items-center">
+      <div class="col-3 mt-3">
+        <button type="submit" class="btn btn-success">Enviar</button>
+      </div>
+    </div>
+</form>
+
+
+
+    <!--Tabla-->
+    <p class="mt-5"> Mira los puntajes mas altos:</p>
+   
+    <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Score</th>
+            <th scope="col">País</th>
+          </tr>
+        </thead>
+      <tBody id="tabla">
+      </tBody>
+ </table>
+
+</main>
+
+
+    <!--FOOTER-->
+    <footer class="text-center text-lg-start bg-black text-muted">
+       
+                <h6 class="text-uppercase text-center fw-bold mb-4">
+                 Contactate !
+                </h6>
+                <p class="text-center"><i class="fas fa-home "></i> Buenos Aires, Argentina</p>
+                <p>
+             
+              
+              </div>
+              
+            </div>
+            
+          </div>
+        </section>
+       
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2022 Copyright: ☀ Flavia Ferreyra ☀
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MongGogame.com</a>
+        </div>
+        
+      </footer>
+</body>
+      <script src="./js/formulario.js"></script>
+      <script src="./js/newplayer.js"></script>
+</html>

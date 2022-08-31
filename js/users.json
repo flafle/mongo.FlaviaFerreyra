@@ -1,0 +1,22 @@
+[
+    {
+    "nombre": "Lalo Landa",
+    "score": 1000 ,
+    "pais": "Argentina"
+    
+},
+
+{
+    "nombre": "Cosme Fulanito",
+    "score": 900 ,
+    "pais": "Uruguay"
+
+},
+
+{
+    "nombre": "Maria Antonieta",
+    "score": 800,
+    "pais": "Argentina"
+
+}
+]

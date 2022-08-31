@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/sprites/play.png">
+
+    <script src="https://js.tuna.uy/tuna.js"></script>
+    <!--Boots-->
+    <link rel="stylesheet" href="https://bootswatch.com/5/cyborg/bootstrap.min.css">
+    <!--script-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--Styles-->
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Jugar</title>
+</head>
+
+<body class="col-md-12">
+    <header>
+          
+    <!--NavBar-->
+    <nav class="navbar bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"> <img src="../assets/m33.png" width=30 heigth="30" alt="MOngo"> </a>
+        </div>
+        
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./juego.html">  🐸 </a>
+          </div>
+      </nav>
+    </header>
+
+  <main>
+         <h4 class="text-center " >🐵 Usa las flechas del teclado para moverte hacia la izquierda o derecha🐸</h4>
+         <p class="text-center">¡No dejes caer la pelota!</p>
+         <p class="text-center">¡Tienes 3 vidas!</p>
+    
+    
+      <div>
+         <h5>Elige tu personaje:<p class="text-light">(Proximamente)</p></h5>
+           <!--APIS-->
+       
+    </div>
+
+
+ <!--Canvas--><!--FALTA AGREGAR FUNCIONALIDAD A LOS BOTONES-->
+ <canvas class="col-md-6" id="myCanvas" width="480" height="320"></canvas>
+
+   <div class="buttons">
+       <button class="btn" id="startGame">Play</button>
+         <button class="btn" id="pause">Pause</button>
+       <button class="btn" id="stop">Stop</button>  
+    </div>
+
+
+</main>
+
+
+    <!--FOOTER-->
+    <footer class="text-center text-lg-start bg-black text-muted">
+       
+      <h6 class="text-uppercase text-center fw-bold mb-4 text-center">
+       Contactate !
+      </h6>
+      <p class="text-center"><i class="fas fa-home me-3"></i> Buenos Aires, Argentina</p>
+     
+    
+    </div>
+    
+  </div>
+  
+</div>
+</section>
+
+
+<!-- Copyright -->
+<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+© 2022 Copyright: ☀ Flavia Ferreyra ☀
+<a class="text-reset fw-bold" href="https://mdbootstrap.com/">MongGogame.com</a>
+</div>
+
+</footer>
+    </body>
+      <script src="../js/juego.js"></script>
+      <script src="../js/api.js"></script>
+   
+</html>
